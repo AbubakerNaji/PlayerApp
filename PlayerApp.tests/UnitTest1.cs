@@ -9,6 +9,7 @@ public class UnitTest1
         {
             var count = PlayerHandler.GetPlayers().Count(p => p.Id == player.Id);
             Assert.True(count == 1);
+        
         }
 
     }
